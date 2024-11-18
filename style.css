@@ -3,7 +3,7 @@ body{
     background: rgb(255, 245, 245);
     font-family: "Bona Nova SC", serif;
     margin: 0px;
-    margin-bottom: 100px;:Ç^Ç
+    margin-bottom: 100px;
 }
 .chamada{
     background: rgb(255, 228, 235);
@@ -17,4 +17,10 @@ header{
     font-size: 40px;
     border-bottom: solid 3px rgb(205, 133, 158);
     padding: 20px;
+}
+.chamada-texto{
+    margin-right: 5%;
+}
+h1{
+    font-size: 35px;
 }
