@@ -1,12 +1,12 @@
 body{
     color: rgb(219, 112, 147);
-    background: rgb(255, 245, 245);
+    background: rgb(255, 228, 235);
     font-family: "Bona Nova SC", serif;
     margin: 0px;
     margin-bottom: 100px;
 }
 .chamada{
-    background: rgb(255, 228, 235);
+    background: rgb(255, 245, 245);
     margin-top: 80px;
     margin-bottom: 80px;
     display: flex;
@@ -23,4 +23,24 @@ header{
 }
 h1{
     font-size: 35px;
+}
+.categoria{
+    background: papayawhip;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+
+}
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.categoria-videos img{
+    height: 200px;
+    opacity: 0.5;
+}
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 3px solid rgb(219, 112, 147);
 }
